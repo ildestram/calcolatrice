@@ -47,3 +47,18 @@ input {
     padding-top:15px;
     padding-bottom:15px;
 }
+
+button {
+    padding:10px;
+    border-radius: 30%;
+    cursor:pointer;
+    background-color: rgb(242, 242, 202);
+}
+
+button:hover {
+    background-color: rgb(122, 206, 122);
+}
+
+#grow-zero{
+    flex-grow:10;
+}

@@ -13,6 +13,7 @@
         <input type="text" id="display" readonly placeholder="Gimme some numbers">
         <div id="buttons">
             <button onclick="deleteDisplay()">AC</button>
+            <button onclick="writeToDisplay('+/-')">+/-</button>
             <button onclick="writeToDisplay('%')">%</button>
             <button onclick="writeToDisplay('/')">/</button>
             <button onclick="writeToDisplay('7')">7</button>
@@ -27,7 +28,7 @@
             <button onclick="writeToDisplay('2')">2</button>
             <button onclick="writeToDisplay('3')">3</button>
             <button onclick="writeToDisplay('+')">+</button>
-            <button onclick="writeToDisplay('0')">0</button>
+            <button id="grow-zero" onclick="writeToDisplay('0')">0</button>
             <button onclick="writeToDisplay('.')">.</button>
             <button onclick="showResult('=')">=</button>
         </div>
