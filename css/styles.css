@@ -56,14 +56,20 @@ button {
     cursor:pointer;
     background-color: rgb(242, 242, 202);
     box-shadow:1px 2px 3px green;
+    font-weight:bold;
 }
 
 button:hover {
     background-color: rgb(122, 206, 122);
     transform:translateY(45deg);
     transition:all;
+    color:white;
 }
 
 #grow-zero{
     flex-grow:10;
+}
+
+.btn-color {
+    color: rgb(0, 98, 128);
 }
