@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcolatrice - Progetto Settimanale Week 3</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <input type="text" id="display" readonly placeholder="Gimme some numbers">
+        <div id="buttons">
+            <button onclick="deleteDisplay()">AC</button>
+            <button onclick="writeToDisplay('%')">%</button>
+            <button onclick="writeToDisplay('/')">/</button>
+            <button onclick="writeToDisplay('7')">7</button>
+            <button onclick="writeToDisplay('8')">8</button>
+            <button onclick="writeToDisplay('9')">9</button>
+            <button onclick="writeToDisplay('*')">X</button>
+            <button onclick="writeToDisplay('4')">4</button>
+            <button onclick="writeToDisplay('5')">5</button>
+            <button onclick="writeToDisplay('6')">6</button>
+            <button onclick="writeToDisplay('-')">-</button>
+            <button onclick="writeToDisplay('1')">1</button>
+            <button onclick="writeToDisplay('2')">2</button>
+            <button onclick="writeToDisplay('3')">3</button>
+            <button onclick="writeToDisplay('+')">+</button>
+            <button onclick="writeToDisplay('0')">0</button>
+            <button onclick="writeToDisplay('.')">.</button>
+            <button onclick="showResult('=')">=</button>
+        </div>
+    </div>
+
+
+
+    <script src="./java/java.js"></script>
+    
+</body>
+</html>
